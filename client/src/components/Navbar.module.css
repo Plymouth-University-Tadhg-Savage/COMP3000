@@ -1,0 +1,32 @@
+.navbar {
+  background-color: var(--color-primary);
+  border-bottom: 1px solid var(--color-accent);
+  padding: 1rem 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--color-accent);
+}
+.navList {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+.navList a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: var(--color-accent);
+}
+.navList a:hover {
+  color: var(--color-secondary);
+}

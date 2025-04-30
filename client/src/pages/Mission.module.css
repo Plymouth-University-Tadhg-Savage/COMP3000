@@ -1,0 +1,28 @@
+.mission {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  background-color: var(--color-accent);
+}
+.heroImage {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.textContainer {
+  margin-top: 1.5rem;
+  max-width: 800px;
+}
+.textContainer h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--color-dark);
+}
+.textContainer p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-dark);
+}

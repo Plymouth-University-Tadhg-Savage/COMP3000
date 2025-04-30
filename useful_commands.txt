@@ -1,0 +1,10 @@
+git reset --hard origin/main
+git clean -fd
+
+Start Servers up order:
+cd to server and then run:
+    pip install -r requirements.txt
+    uvicorn main:app --reload --host 0.0.0.0 --port 8000
+
+cd to client 
+    npm start

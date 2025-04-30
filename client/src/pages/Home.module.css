@@ -1,0 +1,29 @@
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--color-dark);
+}
+.logoutButton {
+  background: none;
+  border: none;
+  font-size: 1rem;
+  color: var(--color-primary);
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  transition: color 0.2s;
+}
+.logoutButton:hover {
+  color: var(--color-secondary);
+}
