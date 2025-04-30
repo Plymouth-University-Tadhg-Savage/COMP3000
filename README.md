@@ -1,5 +1,6 @@
 # ✈️ JetSetGo
 
+## This is identical to JetSetGo Repo. Mirrored hhere for clarity from PID
 Welcome to **JetSetGo**, the smarter way to find your next adventure!  
 Rather than choosing your destination first, simply tell us what *you* want — budget, holiday style, weather preferences — and we'll show you the perfect options across the world. 🌍  
 
